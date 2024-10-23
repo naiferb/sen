@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsesórPC - Tu Experto en Ensamblaje</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Asesoramiento para ensamble de equipos de cómputo</h1>
+        <p>Técnico en Sistemas - Articulación con la media - SENA</p>
+    </header>
+
+    <div class="categories">
+        <!-- Gaming -->
+        <div class="category-card" onclick="toggleSpecs('gaming')">
+            <div class="category-icon">🎮</div>
+            <h2>Gaming</h2>
+            <p>Equipos optimizados para los últimos juegos</p>
+            <div class="specs-container" id="gaming-specs">
+                <ul class="specs-list">
+                    <li>Procesador: Intel i7/Ryzen 7 o superior</li>
+                    <li>RAM: 32GB DDR4/DDR5</li>
+                    <li>Gráfica: RTX 4070 o superior</li>
+                    <li>Almacenamiento: SSD NVMe 1TB + HDD 2TB</li>
+                    <li>Refrigeración líquida</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Diseño Gráfico -->
+        <div class="category-card" onclick="toggleSpecs('design')">
+            <div class="category-icon">🎨</div>
+            <h2>Diseño Gráfico</h2>
+            <p>Ideal para profesionales creativos</p>
+            <div class="specs-container" id="design-specs">
+                <ul class="specs-list">
+                    <li>Procesador: Intel i7/Ryzen 7</li>
+                    <li>RAM: 32GB DDR4</li>
+                    <li>Gráfica: RTX 3060 o superior</li>
+                    <li>Almacenamiento: SSD NVMe 1TB</li>
+                    <li>Monitor profesional calibrado</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Ofimática -->
+        <div class="category-card" onclick="toggleSpecs('office')">
+            <div class="category-icon">💼</div>
+            <h2>Ofimática</h2>
+            <p>Perfecto para trabajo de oficina</p>
+            <div class="specs-container" id="office-specs">
+                <ul class="specs-list">
+                    <li>Procesador: Intel i3/Ryzen 3</li>
+                    <li>RAM: 8GB DDR4</li>
+                    <li>Gráfica: Integrada</li>
+                    <li>Almacenamiento: SSD 256GB</li>
+                    <li>Monitor Full HD</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Ingeniería -->
+        <div class="category-card" onclick="toggleSpecs('engineering')">
+            <div class="category-icon">⚙️</div>
+            <h2>Ingeniería</h2>
+            <p>Para CAD y simulaciones</p>
+            <div class="specs-container" id="engineering-specs">
+                <ul class="specs-list">
+                    <li>Procesador: Intel i9/Ryzen 9</li>
+                    <li>RAM: 64GB DDR4</li>
+                    <li>Gráfica: RTX 4080</li>
+                    <li>Almacenamiento: SSD NVMe 2TB</li>
+                    <li>Doble monitor 4K</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Económico -->
+        <div class="category-card" onclick="toggleSpecs('budget')">
+            <div class="category-icon">💰</div>
+            <h2>Económico</h2>
+            <p>Buena relación calidad-precio</p>
+            <div class="specs-container" id="budget-specs">
+                <ul class="specs-list">
+                    <li>Procesador: Intel i5</li>
+                    <li>RAM: 16GB DDR4</li>
+                    <li>Gráfica: Intel Iris Xe</li>
+                    <li>Almacenamiento: SSD 512GB</li>
+                    <li>Monitor 1080p</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!-- Nueva sección de servicios -->
+    <section class="services-section">
+        <h2>Nuestros Servicios</h2>
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon">🎯</div>
+                <h3>Asesoramiento Personalizado</h3>
+                <p>Analizamos tus necesidades específicas para recomendarte la mejor configuración que se ajuste a tu presupuesto y requisitos.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">💰</div>
+                <h3>Mejor Relación Calidad-Precio</h3>
+                <p>Seleccionamos los componentes más rentables del mercado, optimizando cada peso de tu inversión.</p>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">🛠️</div>
+                <h3>Soporte Técnico</h3>
+                <p>Servicio post-venta con soporte técnico especializado, mantenimiento y actualización de equipos.</p>
+            </div>
+
+
+        </div>
+    </section>
+    <footer class="footer">
+        <p>Creado con ❤️ por aprendices del Técnico en sistemas. Articulación con la media </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
